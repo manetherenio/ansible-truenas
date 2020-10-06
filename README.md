@@ -1,8 +1,8 @@
 # ansible-truenas
 
-Ansible module for configuring TrueNAS (core) 12+ via API. Requires API key to be setup in TrueNAS beforehand. Does not currently support TrueNAS 11 or user-based authentication.
+Ansible module for configuring TrueNAS (core) 12+ via v2.0 API. Requires API key to be setup in TrueNAS beforehand. Does not currently support TrueNAS 11 or user-based authentication.
 
-Currently implemented:
+Currently implemented from https://www.truenas.com/docs/hub/additional-topics/api/rest_api.html:
 
 :negative_squared_cross_mark: AcmeDnsAuthenticator: 0/6
 
