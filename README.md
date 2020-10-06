@@ -1,6 +1,6 @@
 # ansible-truenas
 
-Ansible module for configuring TrueNAS (core) 12+ via v2.0 API. Requires API key to be setup in TrueNAS beforehand. Does not currently support TrueNAS 11 or user-based authentication.
+Ansible module for configuring TrueNAS (Enterprise and Core) 12+ via v2.0 API. Requires API key to be setup in TrueNAS beforehand. Does not currently support TrueNAS 11, FreeNAS, or user-based authentication. Please note that the following totals don't directly correlate to project progress. The module builds on top of the API in an idempotent fashion, so one play may use multiple API commands. This is more of an estimation of how usable the module is.
 
 Currently implemented from https://www.truenas.com/docs/hub/additional-topics/api/rest_api.html:
 
@@ -83,6 +83,60 @@ Currently implemented from https://www.truenas.com/docs/hub/additional-topics/ap
 :negative_squared_cross_mark: IscsiTargetExtent: 0/5
 
 :negative_squared_cross_mark: Jail: 0/23
+
+:negative_squared_cross_mark: Kerberos: 0/2
+
+:negative_squared_cross_mark: KerberosKeytab: 0/6
+
+:negative_squared_cross_mark: KerberosRealm: 0/5
+
+:negative_squared_cross_mark: KeychainCredential: 0/9
+
+:negative_squared_cross_mark: Kmip: 0/5
+
+:negative_squared_cross_mark: Ldap: 0/5
+
+:negative_squared_cross_mark: Lldp: 0/3
+
+:negative_squared_cross_mark: Mail: 0/3
+
+:negative_squared_cross_mark: Multipath: 0/2
+
+:negative_squared_cross_mark: NetworkConfiguration: 0/2
+
+:negative_squared_cross_mark: NetworkGeneral: 0/1
+
+:negative_squared_cross_mark: Nfs: 0/3
+
+:negative_squared_cross_mark: OpenvpnClient: 0/4
+
+:negative_squared_cross_mark: OpenvpnServer: 0/6
+
+:negative_squared_cross_mark: Plugin: 0/10
+
+:negative_squared_cross_mark: Pool: 0/31
+
+:negative_squared_cross_mark: PoolDataset: 0/18
+
+:negative_squared_cross_mark: PoolDatasetUserprop: 0/5
+
+:negative_squared_cross_mark: PoolResilver: 0/2
+
+:negative_squared_cross_mark: PoolScrub: 0/6
+
+:negative_squared_cross_mark: PoolSnapshottask: 0/6
+
+:negative_squared_cross_mark: Replication: 0/12
+
+:negative_squared_cross_mark: Reporting: 0/4
+
+:negative_squared_cross_mark: Route: 0/2
+
+:negative_squared_cross_mark: Rsyncd: 0/2
+
+:negative_squared_cross_mark: Rsyncmod: 0/5
+
+:negative_squared_cross_mark: Rsynctask: 0/6
 
 
 
